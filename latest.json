@@ -1,15 +1,15 @@
 {
   "version": "0.0.2",
   "notes": "- ADD CHANGELOG\nSee the assets to download this version and install.",
-  "pub_date": "2024-07-29T21:16:00.816Z",
+  "pub_date": "2024-07-29T22:27:00.816Z",
   "platforms": {
     "linux-x86_64": {
       "signature": "",
       "url": ""
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVScmZRa1B0aVhHRTJkdzdaenNQTjVONEFVZXZPcTZlNDhLRzVZNzFJVVg5Unhab1h0U1Q4aEZjRmwzaktoanpXRWY3YWJkcjhCS0NienpMc1pwUENUeTRTTjMzSHNhRkFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzIyMjc1OTg3CWZpbGU6c3Rvcm1fMC4wLjFfeDY0X2VuLVVTLm1zaS56aXAKZXU0aCtEMFgzYUYxdDVubStPODVYcnBMZ3dkd0dYMk03K1ZQUlp5NXNtMWlvNC9Fa3NFUDdyQlNGRWNiYmFsdWtKbnVmLzhEbytTTSt3MlJVMEgxQVE9PQo=",
-      "url": "https://github.com/code-fun42/storm-tauri/releases/download/v0.0.1/storm_0.0.1_x64_en-US.msi.zip"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVScmZRa1B0aVhHRXpJWkx5b0pBdmd3SmdLSVdudnpPWm1sOWdLQ3hLdnlFSjM3c3RLVmFnVUZZYW8vUU9XcmttczYvR3orTVh1SDlYdWMzaGhKbkwyM01Ya0J1T3Mvc3dvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzIyMjgwODQ5CWZpbGU6c3Rvcm1fMC4wLjFfeDY0X2VuLVVTLm1zaS56aXAKL21oWmxwUG85Tzl6cUhtYzNwbHc3R29GaXJMaUljL05ZVUE4b3NBSHhRUk5kenFrUjNNdUk4MmFhbmxhRXlOUllGR2FHQXh1SHJiR3k4NTJtdlQyQ0E9PQo=",
+      "url": "https://github.com/code-fun42/storm-tauri/releases/download/v0.0.2/storm_0.0.2_x64_en-US.msi.zip"
     },
     "darwin-x86_64": {
       "signature": "",

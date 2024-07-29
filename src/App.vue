@@ -1,12 +1,41 @@
-<script setup lang="ts">
+<script lang="js">
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import Greet from "./components/Greet.vue";
+import Update from "./components/Update.vue";
+// import {checkUpdate, installUpdate} from "@tauri-apps/api/updater";
+
+export default {
+  components: {Update},
+  data() {
+    return {
+
+    };
+  },
+  methods: {
+    // async _update() {
+    //   const update = await checkUpdate();
+    //
+    //   // if (update.shouldUpdate) {
+    //   //   // console.log(`Installing update ${update.manifest?.version}, ${update.manifest?.date}, ${update.manifest.body}`);
+    //   //   // console.log(`Installing update ${update?.manifest?.version}, ${update?.manifest?.date}, ${update?.manifest?.body}`);
+    //   //   const version = update.manifest?.version;
+    //   //   console.log(`Installing update ${version}`);
+    //   //   // update.manifest
+    //   //   await installUpdate();
+    //   // }
+    // }
+  },
+  mounted() {
+    // console.log("App is running");
+    // this._update()
+  }
+};
 </script>
 
 <template>
   <div class="container">
-    <h1>Welcome to Tauri 222222222222222222222222222222222!</h1>
+    <h1>Welcome to Tauri!222222222222222222</h1>
 
     <div class="row">
       <a href="https://vitejs.dev" target="_blank">
@@ -19,7 +48,7 @@ import Greet from "./components/Greet.vue";
         <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
       </a>
     </div>
-
+    <update/>
     <p>Click on the Tauri, Vite, and Vue logos to learn more.</p>
 
     <Greet />
