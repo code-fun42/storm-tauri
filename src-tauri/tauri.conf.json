@@ -7,7 +7,7 @@
   },
   "package": {
     "productName": "storm",
-    "version": "0.0.0"
+    "version": "0.0.2"
   },
   "tauri": {
     "allowlist": {
@@ -17,6 +17,14 @@
         "open": true
       }
     },
+    "updater": {
+      "active": true,
+      "endpoints": [
+        "https://github.com/code-fun42/storm-tauri/releases/latest/download/latest.json"
+      ],
+      "dialog": true,
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDEzQzYyNUI2MEYwOTdENkIKUldScmZRa1B0aVhHRTZiMWpDRnlUcEJ2dTBrNUhnYjdsMVVtbTZiUnphT2dXU2taeXU1eEpjNmwK"
+    },
     "windows": [
       {
         "title": "storm",
@@ -24,32 +32,20 @@
         "height": 600
       }
     ],
-    "updater": {
-      "windows": {
-        "installMode": "passive"
-      },
+    "security": {
+      "csp": null
+    },
+    "bundle": {
       "active": true,
-      "endpoints": [
-        "https://releases.myapp.com/{{target}}/{{arch}}/{{current_version}}"
-      ],
-      "dialog": true,
-      "pubkey": "YOUR_UPDATER_SIGNATURE_PUBKEY_HERE"
+      "targets": "all",
+      "identifier": "com.storm",
+      "icon": [
+        "icons/32x32.png",
+        "icons/128x128.png",
+        "icons/128x128@2x.png",
+        "icons/icon.icns",
+        "icons/icon.ico"
+      ]
     }
-  },
-  "security": {
-    "csp": null
-  },
-  "bundle": {
-    "active": true,
-    "targets": "all",
-    "identifier": "com.tauri.dev",
-    "icon": [
-      "icons/32x32.png",
-      "icons/128x128.png",
-      "icons/128x128@2x.png",
-      "icons/icon.icns",
-      "icons/icon.ico"
-    ]
   }
-}
 }
